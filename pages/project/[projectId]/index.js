@@ -7,7 +7,7 @@ const ProjectId = () => {
   
   return (
     <>
-      url : {projectId}
+      url of the page is : {projectId}
     </>
   );
 };
