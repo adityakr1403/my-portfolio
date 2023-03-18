@@ -4,7 +4,6 @@ import React from "react";
 const ProjectCard = (props) => {
   return (
     <>
-      {console.log(props)}
       <div className="p-6 rounded-lg shadow-xl bg-teal-100 max-w-sm flex flex-col justify-between w-80 h-80 my-10 mx-4">
         <div className="overflow-hidden">
           <h5 className="text-gray-900 text-xl leading-tight font-medium mb-2">
