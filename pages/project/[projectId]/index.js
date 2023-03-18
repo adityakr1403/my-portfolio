@@ -1,14 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { useRouter } from "next/router";
-import projectdata from "../../../json/projectdata.json";
-import Image from "next/image";
+import projectdata from "../projectdata.json";
 import Head from "next/head";
-import Link from "next/link";
 
 const ProjectId = () => {
   const router = useRouter();
   const projectId = router.query.projectId;
-  const data = projectdata[projectId - 1];
+  const [data, setdata] = useState(projectdata[projectId - 1]);
 
   return (
     <>
