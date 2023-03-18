@@ -17,7 +17,7 @@ const Projects = () => {
                 key={data.id}
                 title={data.title}
                 description={data.description}
-                url={data.url}
+                id={data.id}
               />
             );
           })}

@@ -1,10 +1,10 @@
 import Head from "next/head";
 
-const Resume = () => {
+const blog = () => {
   return (
     <>
       <Head>
-        <title>Aditya | Resume</title>
+        <title>Aditya | Blog</title>
       </Head>
       <main className=" flex min-h-[80vh]">
         <h1 className=" m-auto">Coming soon...</h1>
@@ -13,4 +13,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default blog;

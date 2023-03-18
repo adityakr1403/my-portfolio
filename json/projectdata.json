@@ -1,14 +1,72 @@
 [
   {
     "id": 1,
-    "title": "library management system",
-    "description": "This is the description",
-    "url": "library-management-system"
+    "title": "library management system(Desktop)",
+    "description": "A library management system desktop application developed using javaFX and hibernate. It provides features such as login, issue, return, view, add etc.",
+    "url": "https://github.com/adityakr1403/-library-management-system",
+    "images": [
+      "/librarymanage/1.png",
+      "/librarymanage/2.png",
+      "/librarymanage/3.png",
+      "/librarymanage/4.png",
+      "/librarymanage/5.png",
+      "/librarymanage/6.png",
+      "/librarymanage/7.png",
+      "/librarymanage/8.png"
+    ]
   },
   {
     "id": 2,
     "title": "portfolio website",
-    "description": "This is the description",
-    "url": "this-is-a-url"
+    "description": "My portfolio website using Nextjs framework",
+    "url": "https://github.com/adityakr1403/my-portfolio",
+    "images": ["/portfolio/1.png", "/portfolio/2.png"]
+  },
+  {
+    "id": 3,
+    "title": "employee management (frontend)",
+    "description": "Employee management frontend using reactjs which connects to a backend springboot application with features like adding, deleting and updating the employee details",
+    "url": "https://github.com/adityakr1403/employee-management-system",
+    "images": [
+      "/employee_manage/1.png",
+      "/employee_manage/2.png",
+      "/employee_manage/3.png",
+      "/employee_manage/4.png"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "employee management (backend)",
+    "description": "Employee management system backend API using springboot in JAVA ",
+    "url": "https://github.com/adityakr1403/springboot-backend-employeemanagement",
+    "images": [
+      "/employee_manage/b1.png",
+      "/employee_manage/b2.png",
+      "/employee_manage/b3.png"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "LetsWatch streaming platform (frontend)",
+    "description": "A website like imdb to view the details of the movies available along with option to add the content using an add page.",
+    "url": "https://github.com/adityakr1403/letswatch",
+    "images": [
+      "/letswatch/letswatch-movies.PNG",
+      "/letswatch/2.PNG",
+      "/letswatch/3.PNG",
+      "/letswatch/4.PNG"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Movie Database (backend)",
+    "description": "Backend in springboot in java for the letswatch streaming platform",
+    "url": "https://github.com/adityakr1403/letswatch-backend",
+    "images": [
+      "/letswatch/b1.PNG",
+      "/letswatch/b2.PNG",
+      "/letswatch/b3.PNG",
+      "/letswatch/d1.PNG"
+    ]
   }
 ]

@@ -14,7 +14,7 @@ const Navbar = () => {
 
       <ul className="flex ">
         <li className=" mx-4 cursor-pointer font-medium hover:text-teal-700">
-          <Link href="/">Blog</Link>
+          <Link href="/blog">Blog</Link>
         </li>
         <li className=" mx-4 cursor-pointer font-medium hover:text-teal-700">
           <Link href="/resume">Resume</Link>
