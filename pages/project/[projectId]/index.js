@@ -22,9 +22,9 @@ const ProjectId = () => {
           </a>
         </div>
         <div className=" flex flex-col justify-center mx-auto px-20">
-          {data.images.map((image) => (
+          {data.images.map((image,index) => (
             <div className="flex justify-center my-5 mx-4">
-              <img alt="avatar" src={image} className="rounded-md shadow-2xl" />
+              <img key={index} alt="avatar" src={image} className="rounded-md shadow-2xl" />
             </div>
           ))}
         </div>
