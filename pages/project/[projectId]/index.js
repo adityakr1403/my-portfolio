@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import projectdata from "../projectdata.json";
 import Head from "next/head";
@@ -6,7 +6,17 @@ import Head from "next/head";
 const ProjectId = () => {
   const router = useRouter();
   const projectId = router.query.projectId;
-  const [data, setdata] = useState(projectdata[projectId - 1]);
+  const [data, setdata] = useState({
+    id: "",
+    title: "",
+    description: "",
+    url: "",
+    images: [],
+  });
+
+  useEffect(() => {
+    setdata(projectdata[projectId - 1]);
+  }, []);
 
   return (
     <>
