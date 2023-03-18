@@ -17,7 +17,7 @@ const ProjectId = () => {
       </Head>
       <main className=" min-h-screen py-10 flex flex-col justify-center bg-teal-100">
         <div className=" text-left text-white">
-          <a target="_blank" href={data.url} className=" mx-4 bg-violet-900 px-4 py-2 rounded-xl">
+          <a target="_blank" rel="noreferrer" href={data.url} className=" mx-4 bg-violet-900 px-4 py-2 rounded-xl">
             Go to Github Repo
           </a>
         </div>
