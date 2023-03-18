@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import projectdata from "../projectdata.json";
 import Head from "next/head";
+import Image from "next/image";
 
 const ProjectId = () => {
   const router = useRouter();
@@ -37,7 +38,15 @@ const ProjectId = () => {
         <div className=" flex flex-col justify-center mx-auto px-20">
           {data.images.map((image, index) => (
             <div key={index} className="flex justify-center my-5 mx-4">
-              <img alt="avatar" src={image} className="rounded-md shadow-2xl" />
+              <Image
+                alt="avatar"
+                src={image}
+                width="100"
+                height="100"
+                layout="responsive"
+                objectFit="contain"
+                className="rounded-md shadow-2xl"
+              />
             </div>
           ))}
         </div>
